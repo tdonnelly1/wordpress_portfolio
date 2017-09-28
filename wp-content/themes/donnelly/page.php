@@ -12,7 +12,7 @@
 
  get_header(); ?>
 
- <?php ( 'template-parts/featured-image' ); ?>
+ <?php get_template_part( 'template-parts/featured-image' ); ?>
 
  <div class="main-wrap" role="main">
 

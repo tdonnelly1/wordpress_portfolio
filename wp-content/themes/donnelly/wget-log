@@ -1,6 +1,0 @@
---2017-09-27 21:19:30--  https://connect.advancedcustomfields.com/index.php?a=download
-Resolving connect.advancedcustomfields.com... 77.104.169.180
-Connecting to connect.advancedcustomfields.com|77.104.169.180|:443... connected.
-HTTP request sent, awaiting response... 400 Bad Request
-2017-09-27 21:19:32 ERROR 400: Bad Request.
-

@@ -15,9 +15,9 @@
 			<footer class="footer">
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
-				<?php do_action( 'foundationpress_after_footer' ); ?>
+				<div class="width:300px; height:50px;"><?php the_field ('contact_phone', 'options'); ?></div>
+				<div class="width:300px; height:50px;"><?php the_field ('contact_address', 'options'); ?></div>
 			</footer>
-		</div>
 
 		<?php do_action( 'foundationpress_layout_end' ); ?>
 

@@ -63,6 +63,10 @@
 
 @import 'util/util';
 @import 'global/colors';
+@import 'foundation';
+
+// @include foundation-grid;
+@include foundation-flex-grid;
 
 // 1. Global
 // ---------
@@ -80,7 +84,7 @@ $foundation-palette: (
 $light-gray: #b8b8b8;
 $medium-gray: #707070;
 $dark-gray: #2f2e2c;
-$black: #000000b;
+$black: #000000;
 $white: #ebebeb;
 $body-background: $white;
 $body-font-color: $black;
@@ -851,7 +855,7 @@ $topbar-unstack-breakpoint: medium;
 // 56. Xy Grid
 // -----------
 
-$xy-grid: true;
+$xy-grid: false;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (

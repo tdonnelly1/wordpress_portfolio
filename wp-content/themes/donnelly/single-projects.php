@@ -10,8 +10,7 @@ get_header(); ?>
 
 <?php get_template_part( 'template-parts/featured-image' ); ?>
 
-<div class="main-wrap" role="main">
-
+<div class="main-wrap full-width" role="main">
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 	<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
@@ -21,8 +20,7 @@ get_header(); ?>
 		</header>
 		<?php do_action( 'foundationpress_post_before_entry_content' ); ?>
 		<div class="entry-content">
-			<?php the_content(); ?>
-			<?php edit_post_link( __( '(Edit)', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
+			<iframe src="https://player.vimeo.com/video/234785223" width="1366" height="770" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<footer>
 			<?php
